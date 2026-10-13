@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warm Hearts Of Salesio</title>
+    <style>
+  body {
+    background-image: url("./fairtrade_coffee_background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+  .page {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(70, 45, 25, 0.2);
+    box-sizing: border-box;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #4d3525;
+    border-left: 4px solid #6f4e37;
+    padding-left: 10px;
+    margin-top: 30px;
+  }
+
+  h1.link-header a,
+  h2.link-header a {
+    color: #8b5e3c !important;
+    text-decoration: none !important; 
+    border-bottom: 2px dashed #b99a76; 
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+  }
+
+  h1.link-header a::after,
+  h2.link-header a::after {
+    content: " 詳細↗";
+    font-size: 0.8em;
+    color: #b99a76;
+  }
+
+  h1.link-header a:hover,
+  h2.link-header a:hover {
+    color: #4d3525 !important;
+    border-bottom-style: solid;
+    background-color: rgba(234, 217, 194, 0.4);
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    background-color: #fffaf2;
+    color: #4d3525;
+    border: 2px solid #b99a76;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  button:hover {
+    background-color: #ead9c2;
+  }
+
+  button:disabled {
+    cursor: default;
+    opacity: 0.9;
+  }
+
+  .quiz-box {
+    margin: 30px 0;
+    padding: 22px;
+    background-color: rgba(255, 250, 241, 0.92);
+    border: 2px solid #dbc5a7;
+    border-radius: 15px;
+  }
+
+  .quiz-box h4 {
+    margin-top: 0;
+    color: #4d3525;
+  }
+
+  .correct-answer {
+    background-color: #dff2df !important;
+    border-color: #4f8a5b !important;
+    color: #245c31 !important;
+    font-weight: bold;
+  }
+
+  .wrong-answer {
+    background-color: #f6dddd !important;
+    border-color: #c50300 !important;
+    color: #9e0000 !important;
+    font-weight: bold;
+  }
+
+  .survey-box {
+    margin-top: 40px;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: rgba(255, 248, 235, 0.95);
+    border: 2px solid #d8c2a3;
+    border-radius: 15px;
+  }
+
+  .survey-box h2 {
+    margin-top: 0;
+    border-left: none;
+    padding-left: 0;
+    background-color: transparent;
+  }
+
+  .survey-time {
+    font-weight: bold;
+    color: #6f4e37;
+  }
+
+  .survey-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 14px 28px;
+    background-color: #6f4e37;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+
+  .survey-button:hover {
+    background-color: #8b5e3c;
+  }
+
+  @media (max-width: 600px) {
+    .page {
+      padding: 15px;
+      margin: 15px auto;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Warm Hearts Of Salesio</h1>
+
+  <h2 class="link-header">
+    <a href="活動紹介.pdf" target="_blank" rel="noopener noreferrer">
+      活動紹介
+    </a>
+  </h2>
+  <p>私たちWarm Hearts Of Salesioは、文化祭や体育祭、保護者会などで、マラウイ産のフェアトレードコーヒーを販売し、発展途上国の生産者を支援しています。また、売上はマラウイの給食支援に100%寄付されます。<br>去年は文化祭で1度、今年に入ってからは体育祭、保護者会、そして今回の文化祭で4回目です。<br>今年の文化祭では、マラウイのコーヒーや紅茶が天候の影響などにより不作だったため、マラウイから見るとタンザニアを挟んで左上にあるブルンジ共和国の商品を販売します。生産国は変わりますが、売り上げは変わらずマラウイの子供たちの給食支援に使われます。ブルンジの商品も美味しいので、ぜひお試しください。</p>
+
+  <h2 class="link-header">
+    <a href="フェアトレード.pdf" target="_blank" rel="noopener noreferrer">
+      フェアトレードとは
+    </a>
+  </h2>
+  <p>フェアトレードとは、発展途上国の生産者が適正な価格で取引されることを保証する制度です。私たちがフェアトレードの商品を購入することで、生産者の生活の向上や地域社会の発展に貢献することができます。</p>
+
+  <h2 class="link-header">
+    <a href="https://www.charity-coffee.jp/malawi/?gad_source=1&gad_campaignid=11663710257&gbraid=0AAAAADGNPI4Cbvgt4E4oWXacw1ACxwu4h&gclid=CjwKCAjwq8PVBhAKEiwA2i3SHWkIdGoSWbbX7fpqmvAepPqGRf6wAsRVC1fI5S2QJjK3JxFZsYxZexoCCggQAvD_BwE" target="_blank" rel="noopener noreferrer">
+      マラウイについて
+    </a>
+  </h2>
+  <p>マラウイは、アフリカ南東部に位置する内陸国で、人口は約1,900万人です。首都はリロングウェで、主要な産業は農業です。マラウイのコーヒーは、豊かな風味と香りが特徴で、世界中で高く評価されています。</p>
+
+  <h2 class="link-header">
+    <a href="今後の考察.pdf" target="_blank" rel="noopener noreferrer">
+      今後の個人的な考察
+    </a>
+  </h2>
+  <p>フェアトレードについて調べるうちに、日本にもフェアトレードの仕組みのようなものが必要なのではないかと考えるようになりました。これからもフェアトレードのことや日本の農業について調べていきたいと思います。</p>
+  <h2>クイズ</h2>
+
+  <div class="quiz-box" id="quiz1">
+    <h4>私たちがよく食べるお菓子の中で、フェアトレードの商品をよく見かけるものはどれですか？</h4>
+    <button onclick="answer1(this, true)">チョコレート</button>
+    <button onclick="answer1(this, false)">グミ</button>
+    <button onclick="answer1(this, false)">ポテトチップス</button>
+    <p id="result1"></p>
+  </div>
+
+  <div class="quiz-box" id="quiz2">
+    <h4>フェアトレードとはどのようなものでしょうか？</h4>
+    <button onclick="answer2(this, true)">発展途上国の生産者が適正な価格で取引されることを保証する制度</button>
+    <button onclick="answer2(this, false)">発展途上国のすべての輸入品に対する関税をゼロにすること</button>
+    <button onclick="answer2(this, false)">大企業に利益の半分を慈善団体へ寄付するよう義務付けること</button>
+    <p id="result2"></p>
+  </div>
+
+  <div class="quiz-box" id="quiz3">
+    <h4>フェアトレードが、募金や寄付と大きく違う点はどこですか？</h4>
+    <button onclick="answer3(this, false)">現地に直接お金や物資を無償で届けること</button>
+    <button onclick="answer3(this, false)">最新の工場や大規模なインフラを建設すること</button>
+    <button onclick="answer3(this, true)">買い手と生産者が対等な取引を続け、ビジネスを通じて自立を支えること</button>
+    <p id="result3"></p>
+  </div>
+
+  <div class="survey-box">
+    <h2>アンケート</h2>
+    <p>ご来場ありがとうございました。<br>今後の活動の参考にしたいので、アンケートにご協力ください。</p>
+    <p class="survey-time">回答時間：約30秒</p>
+    <a class="survey-button" href="https://docs.google.com/forms/d/e/1FAIpQLSer1ZD_St2x-jNjSsgibC8gIf18uNc0b5F-FJ5DKYc09Z64dQ/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">
+      アンケートに答える
+    </a>
+  </div>
+</div>
+
+<script>
+function stopButtons(quizId) {
+  const quiz = document.getElementById(quizId);
+  const buttons = quiz.querySelectorAll("button");
+  buttons.forEach(function(button) {
+    button.disabled = true;
+  });
+}
+
+function answer1(selectedButton, correct) {
+  const result = document.getElementById("result1");
+  stopButtons("quiz1");
+
+  if (correct) {
+    selectedButton.classList.add("correct-answer");
+    result.innerHTML = "⭕ 正解！ チョコレートの原料であるカカオは、フェアトレードの代表的な商品です。";
+  } else {
+    selectedButton.classList.add("wrong-answer");
+    result.innerHTML = "❌ 不正解。正解は「チョコレート」です。カカオはフェアトレードの代表的な原料です。";
+  }
+}
+
+function answer2(selectedButton, correct) {
+  const result = document.getElementById("result2");
+  stopButtons("quiz2");
+
+  if (correct) {
+    selectedButton.classList.add("correct-answer");
+    result.innerHTML = "⭕ 正解！ 生産者が適正な価格で継続的に取引できるようにする仕組みです。";
+  } else {
+    selectedButton.classList.add("wrong-answer");
+    result.innerHTML = "❌ 不正解。正解は「発展途上国の生産者が適正な価格で取引されることを保証する制度」です。";
+  }
+}
+
+function answer3(selectedButton, correct) {
+  const result = document.getElementById("result3");
+  stopButtons("quiz3");
+
+  if (correct) {
+    selectedButton.classList.add("correct-answer");
+    result.innerHTML = "⭕ 正解！ 一時的な寄付ではなく、仕事と取引を通じて自立を支えます。";
+  } else {
+    selectedButton.classList.add("wrong-answer");
+    result.innerHTML = "❌ 不正解。正解は「買い手と生産者が対等な取引を続け、ビジネスを通じて自立を支えること」です。";
+  }
+}
+</script>
+</body>
+</html>
